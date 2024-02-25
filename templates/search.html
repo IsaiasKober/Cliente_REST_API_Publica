@@ -1,0 +1,162 @@
+<!-- Alumno: Isaias Muñoz Barrera. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Personaje</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #3d3d3d;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .character-box {
+            max-width: 100px;
+            margin: 20px auto;
+            background-color: #d1d1d1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+        }
+
+        #search-form {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #9c9c9c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #initial-characters {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #9c9c9c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #fffefe;
+        }
+
+        img {
+            max-width: 110%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="initial-characters">
+        <h1>Personajes de Dragonball</h1>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044374/hlpy6q013uw3itl5jzic.webp" alt="Personaje 1">
+            <p>ID: 1</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044422/i9hpfjplth6gjudvhsx3.webp" alt="Personaje 2">
+            <p>ID: 2</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044481/u9fhpc9smihu2kud3cuc.webp" alt="Personaje 3">
+            <p>ID: 3</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044496/bifhe9qarbrgvm0tsiru.webp" alt="Personaje 4">
+            <p>ID: 4</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044513/ux3n5u0tjdvysjao4w8s.webp" alt="Personaje 5">
+            <p>ID: 5</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044531/jcdgte2shoaj2jh0ruob.webp" alt="Personaje 6">
+            <p>ID: 6</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044548/m2mixyphepp8qwcigb3g.webp" alt="Personaje 7">
+            <p>ID: 7</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699129673/dxsl3rjhrfmajo2gealz.webp" alt="Personaje 8">
+            <p>ID: 8</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044573/mz09ghskyzf0skprredi.webp" alt="Personaje 9">
+            <p>ID: 9</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699044627/kigekwjt2m8nwopgvabv.webp" alt="Personaje 10">
+            <p>ID: 10</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699046768/ay2b4ps6xc5i4uhcxoio.webp" alt="Personaje 11">
+            <p>ID: 11</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699046784/umcprk7ugb5q8cb9uhrh.webp" alt="Personaje 12">
+            <p>ID: 12</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699047468/euprvykftdyup1uw6z4p.webp" alt="Personaje 13">
+            <p>ID: 13</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699046815/rizrttygnvfwv4gntrkw.webp" alt="Personaje 14">
+            <p>ID: 14</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699046837/sfc007ookoxjac1j0mkl.webp" alt="Personaje 15">
+            <p>ID: 15</p>
+        </div>
+        <div class="character-box">
+            <img src="https://res.cloudinary.com/dgtgbyo76/image/upload/v1699046959/qmzg7t9u7nhmsqlpt83o.webp" alt="Personaje 16">
+            <p>ID: 16</p>
+        </div>
+
+    </div>
+
+    <div id="search-form">
+        <h1>Buscar información del personaje</h1>
+        <form method="post">
+            <label for="nombre">ID del Personaje:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <input type="submit" value="Buscar">
+        </form>
+    </div>
+</body>
+</html>
